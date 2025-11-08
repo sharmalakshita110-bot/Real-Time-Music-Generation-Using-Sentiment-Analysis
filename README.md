@@ -27,21 +27,16 @@ The LSTM model generates a musical sequence reflecting that emotion.
 The system composes the piece as a MIDI file and converts it to WAV for playback.
 The output audio represents the emotional tone of the detected expression
 
-+------------+------------------------------------------------------------+
-| Emotion    | Characteristics                                            |
-+------------+------------------------------------------------------------+
-| 😄 Happy   | Fast tempo, major scale, upbeat rhythm                     |
-+------------+------------------------------------------------------------+
-| 😢 Sad     | Slow tempo, minor scale, soft rhythm                       |
-+------------+------------------------------------------------------------+
-| 😠 Angry   | Sharp rhythm, aggressive tone                              |
-+------------+------------------------------------------------------------+
-| 😲 Surprise| Varied rhythm, dynamic flow                                |
-+------------+------------------------------------------------------------+
-| 😱 Fear    | Tense rhythm, darker scale                                 |
-+------------+------------------------------------------------------------+
-| 😐 Neutral | Balanced and calm melody                                   |
-+------------+------------------------------------------------------------+
+| Emotion     | Characteristics                        |
+| ----------- | -------------------------------------- |
+| 😄 Happy    | Fast tempo, major scale, upbeat rhythm |
+| 😢 Sad      | Slow tempo, minor scale, soft rhythm   |
+| 😠 Angry    | Sharp rhythm, aggressive tone          |
+| 😲 Surprise | Varied rhythm, dynamic flow            |
+| 😱 Fear     | Tense rhythm, darker scale             |
+| 😐 Neutral  | Balanced and calm melody               |
+
+
 🧰 Tech Stack
 
 Programming Language: Python 3
